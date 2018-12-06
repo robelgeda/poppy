@@ -72,7 +72,7 @@ install:
     # list of environment variables that can be used to customize your
     # environment. In some cases, ci-helpers may not offer enough flexibility
     # in how to install a package, in which case you can have additional
-    # commands in the install: section below.
+    # commands in the install: section below.455
 
     - git clone git://github.com/astropy/ci-helpers.git
     - source ci-helpers/travis/setup_conda_$TRAVIS_OS_NAME.sh
